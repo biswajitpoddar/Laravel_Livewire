@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('search', 'usersearch');
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
-Route::view('pro', 'userpro');
+Route::view('form', 'testform');
+
+require __DIR__ . '/auth.php';
