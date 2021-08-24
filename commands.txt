@@ -1,0 +1,20 @@
+laravel new blog
+
+code . // to open the vs code editor in the current directory
+
+composer require livewire/livewire
+
+@livewireStyles // for styles to be used in the head section
+
+@livewireScripts //for scripts to be used in the body section
+
+to view the styles and script check the page source
+
+to create a component
+php artisan make:livewire counter
+
+
+
+
+
+
