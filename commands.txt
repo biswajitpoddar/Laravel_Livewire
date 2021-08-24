@@ -35,5 +35,17 @@ $this->validate([
 
 	]);
 
+livewire documentations
+
+https://laravel-livewire.com/docs/2.x/quickstart
+
+install tailwind
+
+npm install
+
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+
+
+https://techvblogs.com/blog/laravel-livewire-crud-tutorial
 
 
