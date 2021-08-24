@@ -13,8 +13,27 @@ to view the styles and script check the page source
 to create a component
 php artisan make:livewire counter
 
+in other view page to see the component. counter is the name of the component
+
+ @livewire('counter');
+
+to create inline component
+php artisan make:livewire profile--inline
+
+youtube link
+https://www.youtube.com/watch?v=8vUcZBh6Ef0&list=PL8p2I9GklV46kSNeRjIaeg3FlsP9hNrQN&index=3
 
 
+Route::view('search','usersearch');
+
+To validate write the validate function as below
+
+$this->validate([
+	'name'=>'required'
+	'email'=>'required|email',
+	'pasword'=>'required|min:3|max:10',
+
+	]);
 
 
 
